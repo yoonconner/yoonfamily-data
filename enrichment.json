@@ -87,8 +87,8 @@
     },
     "2026-09-22": {
       "city": "Fresno",
-      "labelKo": "쇼핑 · River Park · 6시 전",
-      "labelEn": "Shopping · River Park · home by 6",
+      "labelKo": "쇼핑 · 월드마켓 · River Park · 6시 전",
+      "labelEn": "Shopping · World Market · River Park · home by 6",
       "shortKo": "쇼핑",
       "shortEn": "Shop"
     },
@@ -107,6 +107,8 @@
       "shortEn": "Canyon"
     },
     "2026-09-25": {
+      "city": "Grand Canyon",
+      "labelKo": "일출 · 프레스� "2026-09-25": {
       "city": "Grand Canyon",
       "labelKo": "일출 · 프레스콗",
       "labelEn": "Sunrise · Prescott",
@@ -189,10 +191,10 @@
       "blurbEn": "Lunch at Dog House, then Belmont → Target Herndon → HomeGoods/TJ → Costco (last group stop) → home to drop Angie. Propane is Yoon solo at Tractor Supply."
     },
     "2026-09-22": {
-      "titleKo": "쇼핑 · 캡틴 크랩 · River Park · 6시 전 귀가",
-      "titleEn": "Shopping · Captain Crab · River Park · home by 6",
-      "blurbKo": "블랙스톤 쇼핑 → Captain Crab → River Park 파머스 마켓은 5시 오픈에 맞춰 짧게만. 5:40 출발, 6시 전 귀가. 비행 전날.",
-      "blurbEn": "Blackstone shopping → Captain Crab → short River Park graze at 5pm open. Leave by 5:40 to be home by 6. Flight eve."
+      "titleKo": "쇼핑 · 캡틴 크랩 · 월드마켓 · River Park · 6시 전 귀가",
+      "titleEn": "Shopping · Captain Crab · World Market · River Park · home by 6",
+      "blurbKo": "블랙스톤 쇼핑 → Captain Crab → World Market 짧게 → River Park 파머스 마켓은 5시 오픈에 맞춰 짧게만. 5:40 출발, 6시 전 귀가. 비행 전날.",
+      "blurbEn": "Blackstone shopping → Captain Crab → short World Market browse → River Park graze at 5pm open. Leave by 5:40 to be home by 6. Flight eve."
     },
     "2026-09-26": {
       "titleKo": "피닉스 → 프레즈노 · 마이클 댕",
@@ -545,7 +547,24 @@
       "factKo": "The Shops at River Park (Cedar / Via 근처). 화 5–9pm. 오픈에 맞춰 도착하고 짧게만.",
       "factEn": "The Shops at River Park (near Cedar / Via). Tue 5–9pm. Arrive at open; keep it short.",
       "tipKo": "5:40 출발 · 6시 전 귀가 (비행 전날)",
-      "tipEn": "Leave by 5:40 · home by 6 (flight eve)"
+      "tipEn": "Leave by 5:40 · home by 6 (flight eve)",
+      "exclude": [
+        "월드마켓",
+        "World Market"
+      ]
+    },
+    "world-market": {
+      "match": [
+        "월드마켓",
+        "World Market"
+      ],
+      "emoji": "🌍",
+      "whatKo": "River Park 홈·수입 잡화 (블랙스톤)",
+      "whatEn": "River Park home and imported goods (Blackstone)",
+      "factKo": "7662 N Blackstone Ave Suite A. 캡틴 크랩 다음, 화요 마켓 5시 전 짧게.",
+      "factEn": "7662 N Blackstone Ave Suite A. After Captain Crab, short browse before the 5pm market.",
+      "tipKo": "화 10am–8pm · 짧게만 · 6시 전 귀가 유지",
+      "tipEn": "Tue 10am–8pm · short browse · home by 6 still holds"
     }
   }
 }
